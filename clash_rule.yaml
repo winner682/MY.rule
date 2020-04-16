@@ -47,7 +47,23 @@ dns:
 Proxy:
 
 Proxy Group:
-
+  # 您也可以使用 RESTful API 去切换服务器，这种方式推荐在 GUI 中使用
+  - name: Proxy
+    type: select
+    proxies:
+      - "UrlTest"
+      - "load-balance"
+      - "fallback-auto"
+      - "ALI-1"
+      - "ALI-2"
+      - "ALI-3"
+      - "ALI-4"
+      - "ALI-5"
+      - "ALI-6"
+      - "ALI-7"
+      - "ALI-8"
+      - "ALI-9"
+      - "ALI-10"  
   - name: "UrlTest"
     type: url-test
     proxies:
@@ -96,25 +112,8 @@ Proxy Group:
       - "ALI-10"
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
-  # 您也可以使用 RESTful API 去切换服务器，这种方式推荐在 GUI 中使用
-  - name: Proxy
-    type: select
-    proxies:
-      - "UrlTest"
-      - "load-balance"
-      - "fallback-auto"
-      - "ALI-1"
-      - "ALI-2"
-      - "ALI-3"
-      - "ALI-4"
-      - "ALI-5"
-      - "ALI-6"
-      - "ALI-7"
-      - "ALI-8"
-      - "ALI-9"
-      - "ALI-10"  
+
 # select 用来允许用户手动选择 代理服务器 或 服务器组
-# 您也可以使用 RESTful API 去切换服务器，这种方式推荐在 GUI 中使用
   - name: "AdBlock"
     type: select
     proxies:
@@ -203,6 +202,9 @@ Proxy Group:
 
 Rule:
   - RULE-SET,https://raw.githubusercontent.com/winner682/MY.rule/master/Rules/AdBlock.list,AdBlock
+  - RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyList.list,AdBlock
+  - RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyListChina.list,AdBlock
+  - RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyPrivacy.list,AdBlock
   - RULE-SET,https://raw.githubusercontent.com/winner682/MY.rule/master/Rules/Apple.list,Apple
   - RULE-SET,https://raw.githubusercontent.com/winner682/MY.rule/master/Rules/AsianTV.list,AsianTV
   - RULE-SET,https://raw.githubusercontent.com/winner682/MY.rule/master/Rules/Domestic.list,Domestic
