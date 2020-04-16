@@ -231,83 +231,91 @@ Proxy Group:
 
 # select 用来允许用户手动选择 代理服务器 或 服务器组
 # 您也可以使用 RESTful API 去切换服务器，这种方式推荐在 GUI 中使用
-  - name: Proxy
-    type: select
-    proxies:
-      - ss1
-      - ss2
-      - vmess1
-      - auto
-  - name: "Apple"
-    type: select
-    proxies:
-      - "DIRECT"
-      - "Proxy"
-  - name: "Microsoft"
-    type: select
-    proxies:
-      - "DIRECT"
-      - "Proxy"
-  - name: "Others"
-    type: select
-    proxies:
-      - "Proxy"
-      - "DIRECT"
   - name: "AdBlock"
     type: select
     proxies:
       - "REJECT"
       - "DIRECT"
-  - name: "Telegram"
+
+  - name: "Apple"
     type: select
     proxies:
-      - "Proxy"
       - "DIRECT"
+      - "Proxy"
+
   - name: "AsianTV"
     type: select
     proxies:
       - "DIRECT"
       - "Proxy"
-  - name: "GlobalTV"
-    type: select
-    proxies:
-      - "Proxy"
-      - "DIRECT"
-  - name: "Steam"
-    type: select
-    proxies:
-      - "Proxy"
-      - "DIRECT"
-  - name: "Netflix"
-    type: select
-    proxies:
-      - "Proxy"
-      - "DIRECT"
-  - name: "PayPal"
-    type: select
-    proxies:
-      - "Proxy"
-      - "DIRECT"
-  - name: "Speedtest"
-    type: select
-    proxies:
-      - "Proxy"
-      - "DIRECT"
-  - name: "Netease Music"
-    type: select
-    proxies:
-      - "DIRECT"
-      - "Proxy"
+
   - name: "Domestic"
     type: select
     proxies:
       - "DIRECT"
       - "Proxy"
+
+  - name: "GlobalTV"
+    type: select
+    proxies:
+      - "Proxy"
+      - "DIRECT"
+
+  - name: "Microsoft"
+    type: select
+    proxies:
+      - "DIRECT"
+      - "Proxy"
+
+  - name: "Netease Music"
+    type: select
+    proxies:
+      - "DIRECT"
+      - "Proxy"
+
+  - name: "Netflix"
+    type: select
+    proxies:
+      - "Proxy"
+      - "DIRECT"
+
+
+  - name: "Others"
+    type: select
+    proxies:
+      - "Proxy"
+      - "DIRECT"
+
+  - name: "PayPal"
+    type: select
+    proxies:
+      - "Proxy"
+      - "DIRECT"
+
+  - name: "Steam"
+    type: select
+    proxies:
+      - "Proxy"
+      - "DIRECT"
+
+  - name: "Speedtest"
+    type: select
+    proxies:
+      - "Proxy"
+      - "DIRECT"
+
   - name: "Spotify"
     type: select
     proxies:
       - "Proxy"
       - "DIRECT"
+
+  - name: "Telegram"
+    type: select
+    proxies:
+      - "Proxy"
+      - "DIRECT"
+
 
 Rule:
   - RULE-SET,https://raw.githubusercontent.com/winner682/MY.rule/master/Rules/AdBlock.list,AdBlock
