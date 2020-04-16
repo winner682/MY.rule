@@ -267,7 +267,7 @@ Proxy Group:
       - "DIRECT"
       - "Proxy"
 
-  - name: "Netease Music"
+  - name: "Netease_Music"
     type: select
     proxies:
       - "DIRECT"
