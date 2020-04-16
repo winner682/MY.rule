@@ -238,19 +238,94 @@ Proxy Group:
       - ss2
       - vmess1
       - auto
+  - name: "Apple"
+    type: select
+    proxies:
+      - "DIRECT"
+      - "Proxy"
+  - name: "Microsoft"
+    type: select
+    proxies:
+      - "DIRECT"
+      - "Proxy"
+  - name: "Others"
+    type: select
+    proxies:
+      - "Proxy"
+      - "DIRECT"
+  - name: "AdBlock"
+    type: select
+    proxies:
+      - "REJECT"
+      - "DIRECT"
+  - name: "Telegram"
+    type: select
+    proxies:
+      - "Proxy"
+      - "DIRECT"
+  - name: "AsianTV"
+    type: select
+    proxies:
+      - "DIRECT"
+      - "Proxy"
+  - name: "GlobalTV"
+    type: select
+    proxies:
+      - "Proxy"
+      - "DIRECT"
+  - name: "Steam"
+    type: select
+    proxies:
+      - "Proxy"
+      - "DIRECT"
+  - name: "Netflix"
+    type: select
+    proxies:
+      - "Proxy"
+      - "DIRECT"
+  - name: "PayPal"
+    type: select
+    proxies:
+      - "Proxy"
+      - "DIRECT"
+  - name: "Speedtest"
+    type: select
+    proxies:
+      - "Proxy"
+      - "DIRECT"
+  - name: "Netease Music"
+    type: select
+    proxies:
+      - "DIRECT"
+      - "Proxy"
+  - name: "Domestic"
+    type: select
+    proxies:
+      - "DIRECT"
+      - "Proxy"
+  - name: "Spotify"
+    type: select
+    proxies:
+      - "Proxy"
+      - "DIRECT"
 
 Rule:
-  - RULE-SET,https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/Liby.list,AdBlock
+  - RULE-SET,https://raw.githubusercontent.com/winner682/MY.rule/master/Rules/AdBlock.list,AdBlock
+  - RULE-SET,https://raw.githubusercontent.com/winner682/MY.rule/master/Rules/Apple.list,Apple
+  - RULE-SET,https://raw.githubusercontent.com/winner682/MY.rule/master/Rules/AsianTV.list,AsianTV
+  - RULE-SET,https://raw.githubusercontent.com/winner682/MY.rule/master/Rules/Domestic.list,Domestic
+  - RULE-SET,https://raw.githubusercontent.com/winner682/MY.rule/master/Rules/DIRECT.list,DIRECT
+  - RULE-SET,https://raw.githubusercontent.com/winner682/MY.rule/master/Rules/GlobalTV.list,GlobalTV
+  - RULE-SET,https://raw.githubusercontent.com/winner682/MY.rule/master/Rules/Microsoft.list,Microsoft
+  - RULE-SET,https://raw.githubusercontent.com/winner682/MY.rule/master/Rules/Netease_Music.list,Netease_Music
+  - RULE-SET,https://raw.githubusercontent.com/winner682/MY.rule/master/Rules/Netflix.list,Netflix
+  - RULE-SET,https://raw.githubusercontent.com/winner682/MY.rule/master/Rules/PayPal.list,PayPal
+  - RULE-SET,https://raw.githubusercontent.com/winner682/MY.rule/master/Rules/Proxy.list,Proxy
+  - RULE-SET,https://raw.githubusercontent.com/winner682/MY.rule/master/Rules/Speedtest.list,Speedtest
+  - RULE-SET,https://raw.githubusercontent.com/winner682/MY.rule/master/Rules/Spotify.list,Spotify
+  - RULE-SET,https://raw.githubusercontent.com/winner682/MY.rule/master/Rules/Steam.list,Steam
+  - RULE-SET,https://raw.githubusercontent.com/winner682/MY.rule/master/Rules/Telegram.list,Telegram
 
-  - RULE-SET,https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/Apple_CDN.list,Apple_CDN
-  - RULE-SET,https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/Apple_API.list,Apple_API
-
-  - RULE-SET,https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/AsianMedia.list,AsianMedia
-  - RULE-SET,https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/GlobalMedia.list,GlobalMedia
-
-  - RULE-SET,https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/Domestic.list,Domestic
-  - RULE-SET,https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/Global.list,Global
-  - RULE-SET,https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/Region.list,Domestic
 
   - IP-CIDR,10.0.0.0/8,DIRECT
   - IP-CIDR,100.64.0.0/10,DIRECT
