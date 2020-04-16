@@ -1,6 +1,6 @@
 # > Microsoft
 # USER-AGENT,OneDrive*
-DOMAIN-KEYWORD
+DOMAIN-KEYWORD,Microsoft
 DOMAIN-KEYWORD,onedrive
 DOMAIN-SUFFIX,azure.cn
 DOMAIN-SUFFIX,azure.com
