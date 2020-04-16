@@ -1,55 +1,55 @@
 # > Google
-- DOMAIN-KEYWORD,mtalk.google.com,DIRECT
-- DOMAIN,safebrowsing.googleapis.com,DIRECT
-- DOMAIN-SUFFIX,dl.google.com,DIRECT
+DOMAIN-KEYWORD,mtalk.google.com
+DOMAIN,safebrowsing.googleapis.com
+DOMAIN-SUFFIX,dl.google.com
 
 # > Steam
-# - USER-AGENT,Steam*,DIRECT
-- DOMAIN-SUFFIX,steamcontent.com,DIRECT
+# USER-AGENT,Steam*
+DOMAIN-SUFFIX,steamcontent.com
 
 # > Windows
-- DOMAIN-SUFFIX,windows.com,DIRECT
-- DOMAIN-SUFFIX,windows.net,DIRECT
-- DOMAIN-SUFFIX,windowsupdate.com,DIRECT
+DOMAIN-SUFFIX,windows.com
+DOMAIN-SUFFIX,windows.net
+DOMAIN-SUFFIX,windowsupdate.com
 
 # > Xunlei
-# - PROCESS-NAME,Thunder,DIRECT
-# - USER-AGENT,%E8%BF%85%E9%9B%B7,DIRECT
-- DOMAIN-SUFFIX,xunlei.com,DIRECT
+# PROCESS-NAME,Thunder
+# USER-AGENT,%E8%BF%85%E9%9B%B7
+DOMAIN-SUFFIX,xunlei.com
 
 # > Private Tracker
-- DOMAIN-SUFFIX,awesome-hd.me,DIRECT
-- DOMAIN-SUFFIX,broadcasthe.net,DIRECT
-- DOMAIN-SUFFIX,chdbits.co,DIRECT
-- DOMAIN-SUFFIX,classix-unlimited.co.uk,DIRECT
-- DOMAIN-SUFFIX,empornium.me,DIRECT
-- DOMAIN-SUFFIX,gazellegames.net,DIRECT
-- DOMAIN-SUFFIX,hdchina.org,DIRECT
-- DOMAIN-SUFFIX,hdsky.me,DIRECT
-- DOMAIN-SUFFIX,icetorrent.org,DIRECT
-- DOMAIN-SUFFIX,jpopsuki.eu,DIRECT
-- DOMAIN-SUFFIX,keepfrds.com,DIRECT
-- DOMAIN-SUFFIX,madsrevolution.net,DIRECT
-- DOMAIN-SUFFIX,m-team.cc,DIRECT
-- DOMAIN-SUFFIX,nanyangpt.com,DIRECT
-- DOMAIN-SUFFIX,ncore.cc,DIRECT
-- DOMAIN-SUFFIX,open.cd,DIRECT
-- DOMAIN-SUFFIX,ourbits.club,DIRECT
-- DOMAIN-SUFFIX,passthepopcorn.me,DIRECT
-- DOMAIN-SUFFIX,privatehd.to,DIRECT
-- DOMAIN-SUFFIX,redacted.ch,DIRECT
-- DOMAIN-SUFFIX,springsunday.net,DIRECT
-- DOMAIN-SUFFIX,tjupt.org,DIRECT
-- DOMAIN-SUFFIX,totheglory.im,DIRECT
+DOMAIN-SUFFIX,awesome-hd.me
+DOMAIN-SUFFIX,broadcasthe.net
+DOMAIN-SUFFIX,chdbits.co
+DOMAIN-SUFFIX,classix-unlimited.co.uk
+DOMAIN-SUFFIX,empornium.me
+DOMAIN-SUFFIX,gazellegames.net
+DOMAIN-SUFFIX,hdchina.org
+DOMAIN-SUFFIX,hdsky.me
+DOMAIN-SUFFIX,icetorrent.org
+DOMAIN-SUFFIX,jpopsuki.eu
+DOMAIN-SUFFIX,keepfrds.com
+DOMAIN-SUFFIX,madsrevolution.net
+DOMAIN-SUFFIX,m-team.cc
+DOMAIN-SUFFIX,nanyangpt.com
+DOMAIN-SUFFIX,ncore.cc
+DOMAIN-SUFFIX,open.cd
+DOMAIN-SUFFIX,ourbits.club
+DOMAIN-SUFFIX,passthepopcorn.me
+DOMAIN-SUFFIX,privatehd.to
+DOMAIN-SUFFIX,redacted.ch
+DOMAIN-SUFFIX,springsunday.net
+DOMAIN-SUFFIX,tjupt.org
+DOMAIN-SUFFIX,totheglory.im
 
 # > Accelerate direct sites
-- DOMAIN-KEYWORD,announce,DIRECT
-- DOMAIN-KEYWORD,torrent,DIRECT
-- DOMAIN-KEYWORD,tracker,DIRECT
-- DOMAIN-SUFFIX,smtp,DIRECT
-- URL-REGEX,(Subject|HELO|SMTP),DIRECT
-- URL-REGEX,(api|ps|sv|offnavi|newvector|ulog\.imap|newloc)(\.map|)\.(baidu|n\.shifen)\.com,DIRECT
-- URL-REGEX,(.+\.|^)(360|so|qihoo|360safe|qhimg|360totalsecurity|yunpan)\.(cn|com),DIRECT
-- URL-REGEX,(.+\.)?(torrent|announce\.php\?passkey=|tracker|BitTorrent|bt_key|ed2k|find_node|get_peers|info_hash|magnet:|peer_id=|sandai|Thunder|XLLiveUD|xunlei)(\..+)?,DIRECT
+DOMAIN-KEYWORD,announce
+DOMAIN-KEYWORD,torrent
+DOMAIN-KEYWORD,tracker
+DOMAIN-SUFFIX,smtp
+URL-REGEX,(Subject|HELO|SMTP)
+URL-REGEX,(api|ps|sv|offnavi|newvector|ulog\.imap|newloc)(\.map|)\.(baidu|n\.shifen)\.com
+URL-REGEX,(.+\.|^)(360|so|qihoo|360safe|qhimg|360totalsecurity|yunpan)\.(cn|com)
+URL-REGEX,(.+\.)?(torrent|announce\.php\?passkey=|tracker|BitTorrent|bt_key|ed2k|find_node|get_peers|info_hash|magnet:|peer_id=|sandai|Thunder|XLLiveUD|xunlei)(\..+)?
 
 
