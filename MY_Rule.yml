@@ -99,16 +99,6 @@ Proxy Group:
       - "ALI-8"
       - "ALI-9"
       - "ALI-10"
-# load-balance 可以使相同 eTLD 请求在同一条代理线路上
-  - name: "load-balance"
-    type: load-balance
-    proxies:
-      - ss1
-      - ss2
-      - vmess1
-    url: 'http://www.gstatic.com/generate_204'
-    interval: 300
-
 # select 用来允许用户手动选择 代理服务器 或 服务器组
 # 您也可以使用 RESTful API 去切换服务器，这种方式推荐在 GUI 中使用
   - name: "AdBlock"
