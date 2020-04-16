@@ -1,276 +1,276 @@
 # > CN
-- DOMAIN-SUFFIX,cn,Domestic
+DOMAIN-SUFFIX,cn
 
 # > Beplay
-- DOMAIN-KEYWORD,beplay,Domestic
+DOMAIN-KEYWORD,beplay
 
 # > Blizzard
-# - USER-AGENT,hearthstone*,Domestic
-- DOMAIN,cdp.cloud.unity3d.com,Domestic
-- DOMAIN-SUFFIX,battle.net,Domestic
-- DOMAIN-SUFFIX,battlenet.com,Domestic
-- DOMAIN-SUFFIX,blizzard.com,Domestic
+# USER-AGENT,hearthstone*
+DOMAIN,cdp.cloud.unity3d.com
+DOMAIN-SUFFIX,battle.net
+DOMAIN-SUFFIX,battlenet.com
+DOMAIN-SUFFIX,blizzard.com
 
 # > Prior
-- DOMAIN,client.amplifi.com,Domestic
-- DOMAIN,ip.bjango.com,Domestic
-- DOMAIN-SUFFIX,alphassl.com,Domestic
-- DOMAIN-SUFFIX,edu.cn,Domestic
+DOMAIN,client.amplifi.com
+DOMAIN,ip.bjango.com
+DOMAIN-SUFFIX,alphassl.com
+DOMAIN-SUFFIX,edu.cn
 
 # > TeamViewer
-- IP-CIDR,185.188.32.0/24,Domestic
-- IP-CIDR,185.188.33.0/24,Domestic
-- IP-CIDR,185.188.34.0/24,Domestic
-- IP-CIDR,185.188.35.0/24,Domestic
-- IP-CIDR6,2a0b:b580::/48,Domestic
-- IP-CIDR6,2a0b:b581::/48,Domestic
-- IP-CIDR6,2a0b:b582::/48,Domestic
-- IP-CIDR6,2a0b:b583::/48,Domestic
+IP-CIDR,185.188.32.0/24
+IP-CIDR,185.188.33.0/24
+IP-CIDR,185.188.34.0/24
+IP-CIDR,185.188.35.0/24
+IP-CIDR6,2a0b:b580::/48
+IP-CIDR6,2a0b:b581::/48
+IP-CIDR6,2a0b:b582::/48
+IP-CIDR6,2a0b:b583::/48
 
-- DOMAIN-SUFFIX,12306.cn,Domestic
-- DOMAIN-SUFFIX,12306.com,Domestic
-- DOMAIN-SUFFIX,126.net,Domestic
-- DOMAIN-SUFFIX,163.com,Domestic
-- DOMAIN-SUFFIX,360.cn,Domestic
-- DOMAIN-SUFFIX,360.com,Domestic
-- DOMAIN-SUFFIX,360buy.com,Domestic
-- DOMAIN-SUFFIX,360buyimg.com,Domestic
-- DOMAIN-SUFFIX,36kr.com,Domestic
-- DOMAIN-SUFFIX,51ym.me,Domestic
-- DOMAIN-SUFFIX,58.com,Domestic
-- DOMAIN-SUFFIX,8686c.com,Domestic
-- DOMAIN-SUFFIX,abercrombie.com,Domestic
-- DOMAIN-SUFFIX,acfun.tv,Domestic
-- DOMAIN-SUFFIX,adobesc.com,Domestic
-- DOMAIN-SUFFIX,air-matters.com,Domestic
-- DOMAIN-SUFFIX,air-matters.io,Domestic
-- DOMAIN-SUFFIX,aixifan.com,Domestic
-- DOMAIN-SUFFIX,akadns.net,Domestic
-- DOMAIN-SUFFIX,alibabacloud.com,Domestic
-- DOMAIN-SUFFIX,alicdn.com,Domestic
-- DOMAIN-SUFFIX,alipay.com,Domestic
-- DOMAIN-SUFFIX,alipayobjects.com,Domestic
-- DOMAIN-SUFFIX,aliyun.com,Domestic
-- DOMAIN-SUFFIX,aliyuncs.com,Domestic
-- DOMAIN-SUFFIX,amap.com,Domestic
-- DOMAIN-SUFFIX,apache.org,Domestic
-- DOMAIN-SUFFIX,api.crisp.chat,Domestic
-- DOMAIN-SUFFIX,appshike.com,Domestic
-- DOMAIN-SUFFIX,appstore.com,Domestic
-- DOMAIN-SUFFIX,autonavi.com,Domestic
-- DOMAIN-SUFFIX,aweme.snssdk.com,Domestic
-- DOMAIN-SUFFIX,bababian.com,Domestic
-- DOMAIN-SUFFIX,baidu.com,Domestic
-- DOMAIN-SUFFIX,baidupcs.com,Domestic
-- DOMAIN-SUFFIX,battle.net,Domestic
-- DOMAIN-SUFFIX,bdimg.com,Domestic
-- DOMAIN-SUFFIX,bdstatic.com,Domestic
-- DOMAIN-SUFFIX,beatsbydre.com,Domestic
-- DOMAIN-SUFFIX,bet365.com,Domestic
-- DOMAIN-SUFFIX,broadcasthe.net,Domestic
-- DOMAIN-SUFFIX,caiyunapp.com,Domestic
-- DOMAIN-SUFFIX,ccgslb.com,Domestic
-- DOMAIN-SUFFIX,ccgslb.net,Domestic
-- DOMAIN-SUFFIX,chinacache.net,Domestic
-- DOMAIN-SUFFIX,chunbo.com,Domestic
-- DOMAIN-SUFFIX,chunboimg.com,Domestic
-- DOMAIN-SUFFIX,clashroyaleapp.com,Domestic
-- DOMAIN-SUFFIX,clouddn.com,Domestic
-- DOMAIN-SUFFIX,cloudsigma.com,Domestic
-- DOMAIN-SUFFIX,cloudxns.net,Domestic
-- DOMAIN-SUFFIX,cmct.tv,Domestic
-- DOMAIN-SUFFIX,cmfu.com,Domestic
-- DOMAIN-SUFFIX,cnbeta.com,Domestic
-- DOMAIN-SUFFIX,cnbetacdn.com,Domestic
-- DOMAIN-SUFFIX,chdbits.co,Domestic
-- DOMAIN-SUFFIX,cnlang.org,Domestic
-- DOMAIN-SUFFIX,culturedcode.com,Domestic
-- DOMAIN-SUFFIX,dct-cloud.com,Domestic
-- DOMAIN-SUFFIX,didialift.com,Domestic
-- DOMAIN-SUFFIX,digicert.com,Domestic
-- DOMAIN-SUFFIX,douban.com,Domestic
-- DOMAIN-SUFFIX,doubanio.com,Domestic
-- DOMAIN-SUFFIX,douyin.com,Domestic
-- DOMAIN-SUFFIX,douyu.com,Domestic
-- DOMAIN-SUFFIX,douyu.tv,Domestic
-- DOMAIN-SUFFIX,douyutv.com,Domestic
-- DOMAIN-SUFFIX,duokan.com,Domestic
-- DOMAIN-SUFFIX,duoshuo.com,Domestic
-- DOMAIN-SUFFIX,dytt8.net,Domestic
-- DOMAIN-SUFFIX,easou.com,Domestic
-- DOMAIN-SUFFIX,ecitic.com,Domestic
-- DOMAIN-SUFFIX,ecitic.net,Domestic
-- DOMAIN-SUFFIX,eclipse.org,Domestic
-- DOMAIN-SUFFIX,eudic.net,Domestic
-- DOMAIN-SUFFIX,ewqcxz.com,Domestic
-- DOMAIN-SUFFIX,feng.com,Domestic
-- DOMAIN-SUFFIX,fir.im,Domestic
-- DOMAIN-SUFFIX,firefox.com,Domestic
-- DOMAIN-SUFFIX,frdic.com,Domestic
-- DOMAIN-SUFFIX,fresh-ideas.cc,Domestic
-- DOMAIN-SUFFIX,gameloft.com,Domestic
-- DOMAIN-SUFFIX,geetest.com,Domestic
-- DOMAIN-SUFFIX,godic.net,Domestic
-- DOMAIN-SUFFIX,goodread.com,Domestic
-- DOMAIN-SUFFIX,google.cn,Domestic
-- DOMAIN-SUFFIX,gtimg.com,Domestic
-- DOMAIN-SUFFIX,haibian.com,Domestic
-- DOMAIN-SUFFIX,hao123.com,Domestic
-- DOMAIN-SUFFIX,haosou.com,Domestic
-- DOMAIN-SUFFIX,hdchina.org,Domestic
-- DOMAIN-SUFFIX,hdcmct.org,Domestic
-- DOMAIN-SUFFIX,hkserversolution.com,Domestic
-- DOMAIN-SUFFIX,hollisterco.com,Domestic
-- DOMAIN-SUFFIX,hongxiu.com,Domestic
-- DOMAIN-SUFFIX,hxcdn.net,Domestic
-- DOMAIN-SUFFIX,icedropper.com,Domestic
-- DOMAIN-SUFFIX,iciba.com,Domestic
-- DOMAIN-SUFFIX,ifeng.com,Domestic
-- DOMAIN-SUFFIX,ifengimg.com,Domestic
-- DOMAIN-SUFFIX,images-amazon.com,Domestic
-- DOMAIN-SUFFIX,img4me.com,Domestic
-- DOMAIN-SUFFIX,ithome.com,Domestic
-- DOMAIN-SUFFIX,ixdzs.com,Domestic
-- DOMAIN-SUFFIX,jd.com,Domestic
-- DOMAIN-SUFFIX,jd.hk,Domestic
-- DOMAIN-SUFFIX,jianshu.com,Domestic
-- DOMAIN-SUFFIX,jianshu.io,Domestic
-- DOMAIN-SUFFIX,jianshuapi.com,Domestic
-- DOMAIN-SUFFIX,jiathis.com,Domestic
-- DOMAIN-SUFFIX,jomodns.com,Domestic
-- DOMAIN-SUFFIX,jsboxbbs.com,Domestic
-- DOMAIN-SUFFIX,knewone.com,Domestic
-- DOMAIN-SUFFIX,kuaidi100.com,Domestic
-- DOMAIN-SUFFIX,kugou.com,Domestic
-- DOMAIN-SUFFIX,lecloud.com,Domestic
-- DOMAIN-SUFFIX,lemicp.com,Domestic
-- DOMAIN-SUFFIX,letv.com,Domestic
-- DOMAIN-SUFFIX,letvcloud.com,Domestic
-- DOMAIN-SUFFIX,lizhi.io,Domestic
-- DOMAIN-SUFFIX,localizecdn.com,Domestic
-- DOMAIN-SUFFIX,lucifr.com,Domestic
-- DOMAIN-SUFFIX,luoo.net,Domestic
-- DOMAIN-SUFFIX,lxdns.com,Domestic
-- DOMAIN-SUFFIX,mai.tn,Domestic
-- DOMAIN-SUFFIX,meizu.com,Domestic
-- DOMAIN-SUFFIX,mi.com,Domestic
-- DOMAIN-SUFFIX,miaopai.com,Domestic
-- DOMAIN-SUFFIX,miui.com,Domestic
-- DOMAIN-SUFFIX,miwifi.com,Domestic
-- DOMAIN-SUFFIX,mob.com,Domestic
-- DOMAIN-SUFFIX,moji.com,Domestic
-- DOMAIN-SUFFIX,moke.com,Domestic
-- DOMAIN-SUFFIX,mxhichina.com,Domestic
-- DOMAIN-SUFFIX,myqcloud.com,Domestic
-- DOMAIN-SUFFIX,myunlu.com,Domestic
-- DOMAIN-SUFFIX,ngabbs.com,Domestic
-- DOMAIN-SUFFIX,netease.com,Domestic
-- DOMAIN-SUFFIX,nfoservers.com,Domestic
-- DOMAIN-SUFFIX,nssurge.com,Domestic
-- DOMAIN-SUFFIX,nuomi.com,Domestic
-- DOMAIN-SUFFIX,ourbits.club,Domestic
-- DOMAIN-SUFFIX,ourdvs.com,Domestic
-- DOMAIN-SUFFIX,passthepopcorn.me,Domestic
-- DOMAIN-SUFFIX,pgyer.com,Domestic
-- DOMAIN-SUFFIX,pniao.com,Domestic
-- DOMAIN-SUFFIX,privatehd.to,Domestic
-- DOMAIN-SUFFIX,pstatp.com,Domestic
-- DOMAIN-SUFFIX,qbox.me,Domestic
-- DOMAIN-SUFFIX,qcloud.com,Domestic
-- DOMAIN-SUFFIX,qdaily.com,Domestic
-- DOMAIN-SUFFIX,qdmm.com,Domestic
-- DOMAIN-SUFFIX,qhimg.com,Domestic
-- DOMAIN-SUFFIX,qidian.com,Domestic
-- DOMAIN-SUFFIX,qihucdn.com,Domestic
-- DOMAIN-SUFFIX,qin.io,Domestic
-- DOMAIN-SUFFIX,qingmang.me,Domestic
-- DOMAIN-SUFFIX,qingmang.mobi,Domestic
-- DOMAIN-SUFFIX,qiniucdn.com,Domestic
-- DOMAIN-SUFFIX,qiniudn.com,Domestic
-- DOMAIN-SUFFIX,qq.com,Domestic
-- DOMAIN-SUFFIX,qqurl.com,Domestic
-- DOMAIN-SUFFIX,rarbg.to,Domestic
-- DOMAIN-SUFFIX,redacted.ch,Domestic
-- DOMAIN-SUFFIX,rrmj.tv,Domestic
-- DOMAIN-SUFFIX,ruguoapp.com,Domestic
-- DOMAIN-SUFFIX,sandai.net,Domestic
-- DOMAIN-SUFFIX,sf-express.com,Domestic
-- DOMAIN-SUFFIX,sinaapp.com,Domestic
-- DOMAIN-SUFFIX,sinaimg.cn,Domestic
-- DOMAIN-SUFFIX,sinaimg.com,Domestic
-- DOMAIN-SUFFIX,sm.ms,Domestic
-- DOMAIN-SUFFIX,smzdm.com,Domestic
-- DOMAIN-SUFFIX,snssdk.com,Domestic
-- DOMAIN-SUFFIX,snwx.com,Domestic
-- DOMAIN-SUFFIX,so.com,Domestic
-- DOMAIN-SUFFIX,sogou.com,Domestic
-- DOMAIN-SUFFIX,sogoucdn.com,Domestic
-- DOMAIN-SUFFIX,sohu.com,Domestic
-- DOMAIN-SUFFIX,soku.com,Domestic
-- DOMAIN-SUFFIX,soso.com,Domestic
-- DOMAIN-SUFFIX,sspai.com,Domestic
-- DOMAIN-SUFFIX,startssl.com,Domestic
-- DOMAIN-SUFFIX,store.steampowered.com,Domestic
-- DOMAIN-SUFFIX,suning.com,Domestic
-- DOMAIN-SUFFIX,symcd.com,Domestic
-- DOMAIN-SUFFIX,taobao.com,Domestic
-- DOMAIN-SUFFIX,tawk.link,Domestic
-- DOMAIN-SUFFIX,tawk.to,Domestic
-- DOMAIN-SUFFIX,teamviewer.com,Domestic
-- DOMAIN-SUFFIX,tenpay.com,Domestic
-- DOMAIN-SUFFIX,tietuku.com,Domestic
-- DOMAIN-SUFFIX,tmall.com,Domestic
-- DOMAIN-SUFFIX,tmzvps.com,Domestic
-- DOMAIN-SUFFIX,trello.com,Domestic
-- DOMAIN-SUFFIX,trellocdn.com,Domestic
-- DOMAIN-SUFFIX,totheglory.im,Domestic
-- DOMAIN-SUFFIX,ttmeiju.com,Domestic
-- DOMAIN-SUFFIX,tudou.com,Domestic
-- DOMAIN-SUFFIX,udache.com,Domestic
-- DOMAIN-SUFFIX,umengcloud.com,Domestic
-- DOMAIN-SUFFIX,upaiyun.com,Domestic
-- DOMAIN-SUFFIX,upyun.com,Domestic
-- DOMAIN-SUFFIX,uxengine.net,Domestic
-- DOMAIN-SUFFIX,wandoujia.com,Domestic
-- DOMAIN-SUFFIX,weather.bjango.com,Domestic
-- DOMAIN-SUFFIX,weather.com,Domestic
-- DOMAIN-SUFFIX,webqxs.com,Domestic
-- DOMAIN-SUFFIX,weibo.cn,Domestic
-- DOMAIN-SUFFIX,weibo.com,Domestic
-- DOMAIN-SUFFIX,weico.cc,Domestic
-- DOMAIN-SUFFIX,weiphone.com,Domestic
-- DOMAIN-SUFFIX,weiphone.net,Domestic
-- DOMAIN-SUFFIX,wenku8.net,Domestic
-- DOMAIN-SUFFIX,werewolf.53site.com,Domestic
-- DOMAIN-SUFFIX,windowsupdate.com,Domestic
-- DOMAIN-SUFFIX,wkcdn.com,Domestic
-- DOMAIN-SUFFIX,workflowy.com,Domestic
-- DOMAIN-SUFFIX,xdrig.com,Domestic
-- DOMAIN-SUFFIX,xhostfire.com,Domestic
-- DOMAIN-SUFFIX,xiami.com,Domestic
-- DOMAIN-SUFFIX,xiami.net,Domestic
-- DOMAIN-SUFFIX,xiaojukeji.com,Domestic
-- DOMAIN-SUFFIX,xiaomi.com,Domestic
-- DOMAIN-SUFFIX,xiaomi.net,Domestic
-- DOMAIN-SUFFIX,xiaomicp.com,Domestic
-- DOMAIN-SUFFIX,ximalaya.com,Domestic
-- DOMAIN-SUFFIX,xitek.com,Domestic
-- DOMAIN-SUFFIX,xmcdn.com,Domestic
-- DOMAIN-SUFFIX,xslb.net,Domestic
-- DOMAIN-SUFFIX,yach.me,Domestic
-- DOMAIN-SUFFIX,yeepay.com,Domestic
-- DOMAIN-SUFFIX,yhd.com,Domestic
-- DOMAIN-SUFFIX,yinxiang.com,Domestic
-- DOMAIN-SUFFIX,yixia.com,Domestic
-- DOMAIN-SUFFIX,ykimg.com,Domestic
-- DOMAIN-SUFFIX,youdao.com,Domestic
-- DOMAIN-SUFFIX,youku.com,Domestic
-- DOMAIN-SUFFIX,yunjiasu-cdn.net,Domestic
-- DOMAIN-SUFFIX,zealer.com,Domestic
-- DOMAIN-SUFFIX,zgslb.net,Domestic
-- DOMAIN-SUFFIX,zhihu.com,Domestic
-- DOMAIN-SUFFIX,zhimg.com,Domestic
-- DOMAIN-SUFFIX,zimuzu.tv,Domestic
-- DOMAIN-SUFFIX,zmz002.com,Domestic
+DOMAIN-SUFFIX,12306.cn
+DOMAIN-SUFFIX,12306.com
+DOMAIN-SUFFIX,126.net
+DOMAIN-SUFFIX,163.com
+DOMAIN-SUFFIX,360.cn
+DOMAIN-SUFFIX,360.com
+DOMAIN-SUFFIX,360buy.com
+DOMAIN-SUFFIX,360buyimg.com
+DOMAIN-SUFFIX,36kr.com
+DOMAIN-SUFFIX,51ym.me
+DOMAIN-SUFFIX,58.com
+DOMAIN-SUFFIX,8686c.com
+DOMAIN-SUFFIX,abercrombie.com
+DOMAIN-SUFFIX,acfun.tv
+DOMAIN-SUFFIX,adobesc.com
+DOMAIN-SUFFIX,air-matters.com
+DOMAIN-SUFFIX,air-matters.io
+DOMAIN-SUFFIX,aixifan.com
+DOMAIN-SUFFIX,akadns.net
+DOMAIN-SUFFIX,alibabacloud.com
+DOMAIN-SUFFIX,alicdn.com
+DOMAIN-SUFFIX,alipay.com
+DOMAIN-SUFFIX,alipayobjects.com
+DOMAIN-SUFFIX,aliyun.com
+DOMAIN-SUFFIX,aliyuncs.com
+DOMAIN-SUFFIX,amap.com
+DOMAIN-SUFFIX,apache.org
+DOMAIN-SUFFIX,api.crisp.chat
+DOMAIN-SUFFIX,appshike.com
+DOMAIN-SUFFIX,appstore.com
+DOMAIN-SUFFIX,autonavi.com
+DOMAIN-SUFFIX,aweme.snssdk.com
+DOMAIN-SUFFIX,bababian.com
+DOMAIN-SUFFIX,baidu.com
+DOMAIN-SUFFIX,baidupcs.com
+DOMAIN-SUFFIX,battle.net
+DOMAIN-SUFFIX,bdimg.com
+DOMAIN-SUFFIX,bdstatic.com
+DOMAIN-SUFFIX,beatsbydre.com
+DOMAIN-SUFFIX,bet365.com
+DOMAIN-SUFFIX,broadcasthe.net
+DOMAIN-SUFFIX,caiyunapp.com
+DOMAIN-SUFFIX,ccgslb.com
+DOMAIN-SUFFIX,ccgslb.net
+DOMAIN-SUFFIX,chinacache.net
+DOMAIN-SUFFIX,chunbo.com
+DOMAIN-SUFFIX,chunboimg.com
+DOMAIN-SUFFIX,clashroyaleapp.com
+DOMAIN-SUFFIX,clouddn.com
+DOMAIN-SUFFIX,cloudsigma.com
+DOMAIN-SUFFIX,cloudxns.net
+DOMAIN-SUFFIX,cmct.tv
+DOMAIN-SUFFIX,cmfu.com
+DOMAIN-SUFFIX,cnbeta.com
+DOMAIN-SUFFIX,cnbetacdn.com
+DOMAIN-SUFFIX,chdbits.co
+DOMAIN-SUFFIX,cnlang.org
+DOMAIN-SUFFIX,culturedcode.com
+DOMAIN-SUFFIX,dct-cloud.com
+DOMAIN-SUFFIX,didialift.com
+DOMAIN-SUFFIX,digicert.com
+DOMAIN-SUFFIX,douban.com
+DOMAIN-SUFFIX,doubanio.com
+DOMAIN-SUFFIX,douyin.com
+DOMAIN-SUFFIX,douyu.com
+DOMAIN-SUFFIX,douyu.tv
+DOMAIN-SUFFIX,douyutv.com
+DOMAIN-SUFFIX,duokan.com
+DOMAIN-SUFFIX,duoshuo.com
+DOMAIN-SUFFIX,dytt8.net
+DOMAIN-SUFFIX,easou.com
+DOMAIN-SUFFIX,ecitic.com
+DOMAIN-SUFFIX,ecitic.net
+DOMAIN-SUFFIX,eclipse.org
+DOMAIN-SUFFIX,eudic.net
+DOMAIN-SUFFIX,ewqcxz.com
+DOMAIN-SUFFIX,feng.com
+DOMAIN-SUFFIX,fir.im
+DOMAIN-SUFFIX,firefox.com
+DOMAIN-SUFFIX,frdic.com
+DOMAIN-SUFFIX,fresh-ideas.cc
+DOMAIN-SUFFIX,gameloft.com
+DOMAIN-SUFFIX,geetest.com
+DOMAIN-SUFFIX,godic.net
+DOMAIN-SUFFIX,goodread.com
+DOMAIN-SUFFIX,google.cn
+DOMAIN-SUFFIX,gtimg.com
+DOMAIN-SUFFIX,haibian.com
+DOMAIN-SUFFIX,hao123.com
+DOMAIN-SUFFIX,haosou.com
+DOMAIN-SUFFIX,hdchina.org
+DOMAIN-SUFFIX,hdcmct.org
+DOMAIN-SUFFIX,hkserversolution.com
+DOMAIN-SUFFIX,hollisterco.com
+DOMAIN-SUFFIX,hongxiu.com
+DOMAIN-SUFFIX,hxcdn.net
+DOMAIN-SUFFIX,icedropper.com
+DOMAIN-SUFFIX,iciba.com
+DOMAIN-SUFFIX,ifeng.com
+DOMAIN-SUFFIX,ifengimg.com
+DOMAIN-SUFFIX,images-amazon.com
+DOMAIN-SUFFIX,img4me.com
+DOMAIN-SUFFIX,ithome.com
+DOMAIN-SUFFIX,ixdzs.com
+DOMAIN-SUFFIX,jd.com
+DOMAIN-SUFFIX,jd.hk
+DOMAIN-SUFFIX,jianshu.com
+DOMAIN-SUFFIX,jianshu.io
+DOMAIN-SUFFIX,jianshuapi.com
+DOMAIN-SUFFIX,jiathis.com
+DOMAIN-SUFFIX,jomodns.com
+DOMAIN-SUFFIX,jsboxbbs.com
+DOMAIN-SUFFIX,knewone.com
+DOMAIN-SUFFIX,kuaidi100.com
+DOMAIN-SUFFIX,kugou.com
+DOMAIN-SUFFIX,lecloud.com
+DOMAIN-SUFFIX,lemicp.com
+DOMAIN-SUFFIX,letv.com
+DOMAIN-SUFFIX,letvcloud.com
+DOMAIN-SUFFIX,lizhi.io
+DOMAIN-SUFFIX,localizecdn.com
+DOMAIN-SUFFIX,lucifr.com
+DOMAIN-SUFFIX,luoo.net
+DOMAIN-SUFFIX,lxdns.com
+DOMAIN-SUFFIX,mai.tn
+DOMAIN-SUFFIX,meizu.com
+DOMAIN-SUFFIX,mi.com
+DOMAIN-SUFFIX,miaopai.com
+DOMAIN-SUFFIX,miui.com
+DOMAIN-SUFFIX,miwifi.com
+DOMAIN-SUFFIX,mob.com
+DOMAIN-SUFFIX,moji.com
+DOMAIN-SUFFIX,moke.com
+DOMAIN-SUFFIX,mxhichina.com
+DOMAIN-SUFFIX,myqcloud.com
+DOMAIN-SUFFIX,myunlu.com
+DOMAIN-SUFFIX,ngabbs.com
+DOMAIN-SUFFIX,netease.com
+DOMAIN-SUFFIX,nfoservers.com
+DOMAIN-SUFFIX,nssurge.com
+DOMAIN-SUFFIX,nuomi.com
+DOMAIN-SUFFIX,ourbits.club
+DOMAIN-SUFFIX,ourdvs.com
+DOMAIN-SUFFIX,passthepopcorn.me
+DOMAIN-SUFFIX,pgyer.com
+DOMAIN-SUFFIX,pniao.com
+DOMAIN-SUFFIX,privatehd.to
+DOMAIN-SUFFIX,pstatp.com
+DOMAIN-SUFFIX,qbox.me
+DOMAIN-SUFFIX,qcloud.com
+DOMAIN-SUFFIX,qdaily.com
+DOMAIN-SUFFIX,qdmm.com
+DOMAIN-SUFFIX,qhimg.com
+DOMAIN-SUFFIX,qidian.com
+DOMAIN-SUFFIX,qihucdn.com
+DOMAIN-SUFFIX,qin.io
+DOMAIN-SUFFIX,qingmang.me
+DOMAIN-SUFFIX,qingmang.mobi
+DOMAIN-SUFFIX,qiniucdn.com
+DOMAIN-SUFFIX,qiniudn.com
+DOMAIN-SUFFIX,qq.com
+DOMAIN-SUFFIX,qqurl.com
+DOMAIN-SUFFIX,rarbg.to
+DOMAIN-SUFFIX,redacted.ch
+DOMAIN-SUFFIX,rrmj.tv
+DOMAIN-SUFFIX,ruguoapp.com
+DOMAIN-SUFFIX,sandai.net
+DOMAIN-SUFFIX,sf-express.com
+DOMAIN-SUFFIX,sinaapp.com
+DOMAIN-SUFFIX,sinaimg.cn
+DOMAIN-SUFFIX,sinaimg.com
+DOMAIN-SUFFIX,sm.ms
+DOMAIN-SUFFIX,smzdm.com
+DOMAIN-SUFFIX,snssdk.com
+DOMAIN-SUFFIX,snwx.com
+DOMAIN-SUFFIX,so.com
+DOMAIN-SUFFIX,sogou.com
+DOMAIN-SUFFIX,sogoucdn.com
+DOMAIN-SUFFIX,sohu.com
+DOMAIN-SUFFIX,soku.com
+DOMAIN-SUFFIX,soso.com
+DOMAIN-SUFFIX,sspai.com
+DOMAIN-SUFFIX,startssl.com
+DOMAIN-SUFFIX,store.steampowered.com
+DOMAIN-SUFFIX,suning.com
+DOMAIN-SUFFIX,symcd.com
+DOMAIN-SUFFIX,taobao.com
+DOMAIN-SUFFIX,tawk.link
+DOMAIN-SUFFIX,tawk.to
+DOMAIN-SUFFIX,teamviewer.com
+DOMAIN-SUFFIX,tenpay.com
+DOMAIN-SUFFIX,tietuku.com
+DOMAIN-SUFFIX,tmall.com
+DOMAIN-SUFFIX,tmzvps.com
+DOMAIN-SUFFIX,trello.com
+DOMAIN-SUFFIX,trellocdn.com
+DOMAIN-SUFFIX,totheglory.im
+DOMAIN-SUFFIX,ttmeiju.com
+DOMAIN-SUFFIX,tudou.com
+DOMAIN-SUFFIX,udache.com
+DOMAIN-SUFFIX,umengcloud.com
+DOMAIN-SUFFIX,upaiyun.com
+DOMAIN-SUFFIX,upyun.com
+DOMAIN-SUFFIX,uxengine.net
+DOMAIN-SUFFIX,wandoujia.com
+DOMAIN-SUFFIX,weather.bjango.com
+DOMAIN-SUFFIX,weather.com
+DOMAIN-SUFFIX,webqxs.com
+DOMAIN-SUFFIX,weibo.cn
+DOMAIN-SUFFIX,weibo.com
+DOMAIN-SUFFIX,weico.cc
+DOMAIN-SUFFIX,weiphone.com
+DOMAIN-SUFFIX,weiphone.net
+DOMAIN-SUFFIX,wenku8.net
+DOMAIN-SUFFIX,werewolf.53site.com
+DOMAIN-SUFFIX,windowsupdate.com
+DOMAIN-SUFFIX,wkcdn.com
+DOMAIN-SUFFIX,workflowy.com
+DOMAIN-SUFFIX,xdrig.com
+DOMAIN-SUFFIX,xhostfire.com
+DOMAIN-SUFFIX,xiami.com
+DOMAIN-SUFFIX,xiami.net
+DOMAIN-SUFFIX,xiaojukeji.com
+DOMAIN-SUFFIX,xiaomi.com
+DOMAIN-SUFFIX,xiaomi.net
+DOMAIN-SUFFIX,xiaomicp.com
+DOMAIN-SUFFIX,ximalaya.com
+DOMAIN-SUFFIX,xitek.com
+DOMAIN-SUFFIX,xmcdn.com
+DOMAIN-SUFFIX,xslb.net
+DOMAIN-SUFFIX,yach.me
+DOMAIN-SUFFIX,yeepay.com
+DOMAIN-SUFFIX,yhd.com
+DOMAIN-SUFFIX,yinxiang.com
+DOMAIN-SUFFIX,yixia.com
+DOMAIN-SUFFIX,ykimg.com
+DOMAIN-SUFFIX,youdao.com
+DOMAIN-SUFFIX,youku.com
+DOMAIN-SUFFIX,yunjiasu-cdn.net
+DOMAIN-SUFFIX,zealer.com
+DOMAIN-SUFFIX,zgslb.net
+DOMAIN-SUFFIX,zhihu.com
+DOMAIN-SUFFIX,zhimg.com
+DOMAIN-SUFFIX,zimuzu.tv
+DOMAIN-SUFFIX,zmz002.com
 
-- IP-CIDR,1.255.62.0/24,Domestic
+IP-CIDR,1.255.62.0/24
