@@ -114,12 +114,6 @@ Proxy Group:
     interval: 300
 
 # select 用来允许用户手动选择 代理服务器 或 服务器组
-  - name: "AdBlock"
-    type: select
-    proxies:
-      - "REJECT"
-      - "DIRECT"
-
   - name: "Apple"
     type: select
     proxies:
@@ -147,8 +141,8 @@ Proxy Group:
   - name: "Microsoft"
     type: select
     proxies:
-      - "DIRECT"
       - "Proxy"
+      - "DIRECT"
 
   - name: "Netease_Music"
     type: select
@@ -162,6 +156,11 @@ Proxy Group:
       - "Proxy"
       - "DIRECT"
 
+  - name: "OneDrive"
+    type: select
+    proxies:
+      - "Proxy"
+      - "DIRECT"
 
   - name: "Others"
     type: select
@@ -198,13 +197,39 @@ Proxy Group:
     proxies:
       - "Proxy"
       - "DIRECT"
+  - name: "AdBlock"
+    type: select
+    proxies:
+      - "REJECT"
+      - "DIRECT"
+  - name: "BanEasyList"
+    type: select
+    proxies:
+      - "REJECT"
+      - "DIRECT"
+  - name: "BanEasyListChina"
+    type: select
+    proxies:
+      - "REJECT"
+      - "DIRECT"
+  - name: "BanEasyPrivacy"
+    type: select
+    proxies:
+      - "REJECT"
+      - "DIRECT"
+  - name: "BanProgramAD"
+    type: select
+    proxies:
+      - "REJECT"
+      - "DIRECT"
 
 
 Rule:
   - RULE-SET,https://raw.githubusercontent.com/winner682/MY.rule/master/Rules/AdBlock.list,AdBlock
-  - RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyList.list,AdBlock
-  - RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyListChina.list,AdBlock
-  - RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyPrivacy.list,AdBlock
+  - RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyList.list,BanEasyList
+  - RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyListChina.list,BanEasyListChina
+  - RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyPrivacy.list,BanEasyPrivacy
+  - RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list,BanProgramAD
   - RULE-SET,https://raw.githubusercontent.com/winner682/MY.rule/master/Rules/Apple.list,Apple
   - RULE-SET,https://raw.githubusercontent.com/winner682/MY.rule/master/Rules/AsianTV.list,AsianTV
   - RULE-SET,https://raw.githubusercontent.com/winner682/MY.rule/master/Rules/Domestic.list,Domestic
@@ -213,13 +238,13 @@ Rule:
   - RULE-SET,https://raw.githubusercontent.com/winner682/MY.rule/master/Rules/Microsoft.list,Microsoft
   - RULE-SET,https://raw.githubusercontent.com/winner682/MY.rule/master/Rules/Netease_Music.list,Netease_Music
   - RULE-SET,https://raw.githubusercontent.com/winner682/MY.rule/master/Rules/Netflix.list,Netflix
+  - RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/OneDrive.list,OneDrive
   - RULE-SET,https://raw.githubusercontent.com/winner682/MY.rule/master/Rules/PayPal.list,PayPal
   - RULE-SET,https://raw.githubusercontent.com/winner682/MY.rule/master/Rules/Proxy.list,Proxy
   - RULE-SET,https://raw.githubusercontent.com/winner682/MY.rule/master/Rules/Speedtest.list,Speedtest
   - RULE-SET,https://raw.githubusercontent.com/winner682/MY.rule/master/Rules/Spotify.list,Spotify
   - RULE-SET,https://raw.githubusercontent.com/winner682/MY.rule/master/Rules/Steam.list,Steam
   - RULE-SET,https://raw.githubusercontent.com/winner682/MY.rule/master/Rules/Telegram.list,Telegram
-
 
   - IP-CIDR,10.0.0.0/8,DIRECT
   - IP-CIDR,100.64.0.0/10,DIRECT
